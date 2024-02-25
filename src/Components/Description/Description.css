@@ -1,0 +1,87 @@
+
+
+/*Mobile-first
+*/
+@media (max-width: 768px) {/*(active)=>/*Mobile*/ 
+
+.Description-G{  
+ border:0px solid rgb(9, 17, 243);  
+ margin-bottom: 20px;
+}
+.Description-G_1{/*flex*/
+height: 30px;
+
+display: flex;
+justify-content:space-between;  
+padding-left: 15px;
+padding-right: 15px;
+box-sizing: border-box; 
+border-radius: 5px;
+background-color: #ff6060;
+cursor: pointer;  
+}
+.Description_txt{/*txt*/
+padding-top: 8px;
+box-sizing: border-box;
+}
+.Description-flech{
+color: #fff;
+font-size: 1rem;/*16px*/
+padding-top: 7px;
+box-sizing: border-box;
+}
+.Description-Content{
+
+padding: 20px;
+border-radius: 0px 0px 5px  5px;
+box-sizing: border-box;
+background-color:#fbfbfb;
+}
+
+}
+
+@media (min-width: 769px) {/*(active)=>/*Destop*/ 
+
+.Description-G{  
+   
+    margin-bottom: 20px;
+}
+   
+.Description-G_1{/*flex*/
+   height: 52px;/*fima*/ 
+   display: flex;
+   justify-content:space-between;  
+   padding-left: 15px;
+   padding-right: 15px;
+   box-sizing: border-box; 
+   border-radius: 5px;
+   background-color: #ff6060;
+   cursor: pointer;  
+}
+   
+.Description_txt{/*txt*/
+   padding-top: 15px;
+   box-sizing: border-box;
+}
+   
+.Description-flech{
+   color: #fff;
+   font-size: 1.5rem;/*24px*/
+   padding-top: 15px;
+   box-sizing: border-box;
+}
+   
+.Description-Content{
+   width: 100%;
+   padding: 20px;
+   border-radius: 0px 0px 5px  5px;
+   box-sizing: border-box;
+   background-color:#fbfbfb;
+}
+
+.caract-13p{
+font-size: 1.125rem;/*18px*/
+font-weight: bold;  
+}
+
+}

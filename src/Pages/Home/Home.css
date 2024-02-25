@@ -1,0 +1,12 @@
+
+/*mobile-first::
+*/
+
+.main-container-home{
+    max-width:1240px;/*destop*/
+    margin:auto;
+    padding: 20px;   
+    box-sizing: border-box;  
+    border:0px solid rgb(1, 105, 18);
+  }
+

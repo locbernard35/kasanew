@@ -1,0 +1,87 @@
+
+/*Mobile-first::
+*/
+
+@media (max-width: 768px) {/*(active)=>/*mobile*/
+  
+.main-container-Erreur{   
+margin:auto;
+padding: 20px;   
+box-sizing: border-box;  
+border:0px solid rgb(1, 105, 18);
+}
+.pages-g-erreur-mobile{/*flex*/
+display: flex;
+flex-direction: column; 
+text-align: center;
+}
+.pages-g-erreur-mobile_1{/*txt =>404*/
+height:99px; 
+margin-top: 70px;
+margin-bottom: 70px;
+}
+.pages-g-erreur-mobile_2{/*txt=>Oups! La page que Vous demandez n'existe pas.*/
+ margin-bottom: 70px; 
+}
+.pages-g-erreur-mobile_3{
+background-color: rgb(255, 255, 255); 
+}
+.pages-g-erreur-mobile_3_1{/*txt =><a>*/
+border: 0px solid blue;
+}
+.pages-g-erreur-mobile_3_1:hover{/*hover*/
+border-bottom:1px solid rgb(0, 0, 0); 
+}
+
+}
+
+@media (min-width: 769px) {/*(active)=> /*destop*/ 
+  
+.main-container-Erreur{
+max-width:1240px;/*destop*/
+margin:auto;
+padding: 20px;   
+box-sizing: border-box;  
+border:0px solid rgb(1, 105, 18);
+}
+
+
+
+ 
+.pages-g-erreur-mobile{/*flex*/
+display: flex;
+flex-direction: column; 
+text-align: center;
+}
+.pages-g-erreur-mobile_1{/*txt =>404*/
+height:unset; 
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.pages-g-erreur-mobile_2{/*txt=>Oups! La page que Vous demandez n'existe pas.*/
+  margin-bottom: 100px; 
+}
+.pages-g-erreur-mobile_3{
+  margin-bottom: 100px; 
+}
+.pages-g-erreur-mobile_3_1:hover{/*hover*/
+ border-bottom:1px solid rgb(0, 0, 0); 
+}
+
+/*fonts::
+*/
+.caract-96p{/*destop=>*/
+font-size:18rem;/*288px*/
+font-weight: bold;  
+}
+.caract-18p{
+font-size:2.25rem ; /*36px*/
+}
+.caract-14p{
+font-size:1.125rem;/*18px*/
+font-weight: 500;  
+}
+
+
+} 
+ 

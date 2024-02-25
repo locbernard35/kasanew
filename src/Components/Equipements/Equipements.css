@@ -1,0 +1,84 @@
+
+/*Mobile-first
+*/
+@media (max-width: 768px) {/*(active)=>/*Mobile*/ 
+   
+.Equipements-G{  
+    border:0px solid rgb(9, 17, 243);  
+}   
+.Equipements-G_1{/*flex*/
+   height: 30px;
+   width: 100%;
+   
+   display: flex;
+   justify-content:space-between;
+     
+   padding-left: 15px;
+   padding-right: 15px;
+   box-sizing: border-box;
+    
+   border-radius: 5px;
+   background-color: #ff6060;
+   cursor: pointer;   
+   
+}
+.Equipements_txt{
+    padding-top: 8px;
+    box-sizing: border-box;
+} 
+.Equipements-flech{
+   color: #fff;
+   font-size: 1rem;/*16px*/
+   padding-top: 7px;
+   box-sizing: border-box;
+}   
+.Equipements-Content{
+   width: 100%;
+   padding: 20px;
+   border-radius: 0px 0px 5px  5px;
+   box-sizing: border-box;
+   background-color:#fbfbfb;
+}
+
+}
+
+@media (min-width: 769px) {/*(active)=>/*Destop*/ 
+
+.Equipements-G{     
+margin-bottom: 20px;
+
+}   
+ .Equipements-G_1{/*flex*/
+   height: 52px;/*fima*/ 
+   display: flex;
+   justify-content:space-between;  
+   padding-left: 15px;
+   padding-right: 15px;
+   box-sizing: border-box; 
+   border-radius: 5px;
+   background-color: #ff6060;
+   cursor: pointer;  
+}
+   
+.Equipements_txt{/*txt*/
+   padding-top: 15px;
+   box-sizing: border-box;
+}
+   
+.Equipements-flech{
+  
+   color: #fff;
+   font-size: 1.5rem;/*24px*/
+   padding-top: 15px;
+   box-sizing: border-box;
+}
+   
+.Equipements-Content{
+   width: 100%;
+   padding: 20px;
+   border-radius: 0px 0px 5px  5px;
+   box-sizing: border-box;
+   background-color:#fbfbfb;
+}
+
+}

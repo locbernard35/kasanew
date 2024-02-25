@@ -1,0 +1,95 @@
+
+/*Mobile-first
+*/
+@media (max-width: 768px) {/*(active)=>/*Mobile*/ 
+
+.Banner-g{
+  height: 111px;  /*fima*/
+  width: 100%;  
+  border-radius: 8px; 
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.Banner-g_1{/*container=>img*/
+ height: 111px;  
+ width: 100%;   
+}
+.Banner-g_1_1{/*img*/
+height:111px; 
+width: 100%;
+object-fit: cover; 
+}
+.Banner-g_2{/*opacité img*/  
+height:111px;  
+width: 100%;  
+position: absolute;
+top: 0px; 
+background-color: rgb(22, 22, 22);
+opacity: 0.70;
+}
+.Banner-g_3{/*container=>txt*/
+  height:111px;  
+  width: 100%; 
+  text-align: center;
+  position: absolute;
+  top: 0px; 
+ 
+  padding-top: 40px;
+  box-sizing: border-box;  
+}
+.Banner-g_3_1{/*txt*/
+ color: #fff;
+ font-family: "Montserrat", sans-serif;
+ font-size:1.5rem;/*24px*/
+ font-weight: bold; 
+}
+
+}
+
+@media (min-width: 769px) {/*(active)=>/*Destop*/ 
+  .Banner-g{
+    height: 223px;  /*fima*/
+    width: 100%;  
+    border-radius: 8px; 
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .Banner-g_1{/*container=>img*/
+   height: 223px;  
+   width: 100%;   
+  }
+  .Banner-g_1_1{/*img*/
+  height:223px; 
+  width: 100%;
+  object-fit: cover; 
+  }
+  .Banner-g_2{/*opacité img*/  
+  height:223px;  
+  width: 100%;  
+  position: absolute;
+  top: 0px; 
+  background-color: rgb(22, 22, 22);
+  opacity: 0.70;
+  }
+  .Banner-g_3{/*container=>txt*/
+    height:223px;  
+    width: 100%; 
+    text-align: center;
+    position: absolute;
+    top: 0px; 
+   
+    padding-top: 87px;
+    box-sizing: border-box;  
+  }
+  .Banner-g_3_1{/*txt*/
+   color: #fff;
+   font-family: "Montserrat", sans-serif;
+   font-size: 3rem;/*48px*/
+   font-weight: bold; 
+  } 
+  
+}

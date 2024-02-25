@@ -1,0 +1,38 @@
+ 
+/*Mobile-first
+*/
+@media (max-width: 768px) {/*(active)=>/*Mobile*/ 
+
+.container-title-location{ /*container*/
+ margin-bottom: 10px; 
+}
+.title-fiche{/*txt =>title*/
+margin-bottom: 0px;
+}
+.location-fiche{/*txt=>location*/
+ margin-bottom: 0px;
+}
+
+}
+
+@media (min-width: 769px) {/*(active)=>/*Destop*/ 
+.container-title-location{ /*container*/
+ margin-bottom: 10px; 
+  }
+ .title-fiche{/*txt =>title*/
+ margin-bottom: 10px;
+ }
+.location-fiche{/*txt=>location*/
+margin-bottom: 0px;
+} 
+
+.caract-18p{
+font-size:2.25rem ; /*36px*/
+}
+.caract-14p{
+ font-size:1.125rem;  /*18px*/ 
+
+}
+
+    
+}

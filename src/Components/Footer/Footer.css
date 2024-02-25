@@ -1,0 +1,75 @@
+/*mobile-first
+*/
+@media (max-width: 768px) {/*(active)=>/*Mobile*/ 
+
+footer {
+height:209px;/*fima*/ 	 
+padding-top:54px;
+box-sizing:border-box;
+background-color:#000;
+}
+.footer_1{/*flex*/	
+display: flex;    
+flex-direction: column;	
+align-items: center;   
+}
+.footer_1_1{/*container*/
+height:39.44px;/*fima*/	
+width:122px;/*fima*/
+margin-bottom:10px;	
+}
+.footer_1_1_1-img{/*logo img*/
+height:39.44px;/*fima*/	
+width:122px;/*fima*/    
+}        
+.footer_1_2{/*txt=> © 2020 Kasa. All rights reserved*/
+ height:46px;/*fima*/
+ width:135.02px;/*fima*/	
+    
+ color:#fff;	
+ font-family: "Montserrat", sans-serif;
+ font-size:0.75rem;	/*12px*/
+ text-align:center;  
+}
+
+}
+
+@media (min-width: 769px) {/*(active)=>/*Destop*/ 
+
+footer {
+height:209px;/*fima*/    
+padding-top:54px;
+box-sizing:border-box;
+background-color:#000;       
+}
+.footer_1{/*flex*/	
+display: flex;    
+flex-direction: column;	
+align-items: center;   
+ }
+        
+ .footer_1_1{/*container=>logo*/
+ height:39.44px;/*fima*/	
+ width:122px;/*fima*/
+ margin-bottom:20px;	      
+ }
+ .footer_1_1_1-img{/*logo img*/
+ height:39.44px;/*fima*/	
+ width:122px;/*fima*/    
+ }    
+              
+
+.footer_1_2{/*txt=> © 2020 Kasa. All rights reserved*/
+ height:46px;/*fima*/
+ width:400px;/*fima*/	
+           
+color:#fff;	
+font-family: "Montserrat", sans-serif;	
+font-size:1.5rem;	/*24px*/
+text-align:center;  
+       
+  }
+
+ }
+
+

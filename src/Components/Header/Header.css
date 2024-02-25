@@ -1,0 +1,81 @@
+/*Mobile-first::
+*/
+
+@media (max-width: 768px) {/*(active)=>/*Mobile*/ 
+
+.Header-g{
+ height:46.88px;/*fima*/
+ display: flex;
+ justify-content: space-between ; 
+
+ margin-top:20px;
+ margin-bottom:27px;	
+}
+.Header-g_1{/*logo*/
+     
+height:46.88px;/*fima*/	
+width:145px;/*fima*/   
+}
+.Header-g_2{
+height:46.88px;/*fima*/ 
+padding-top: 20px;
+box-sizing: border-box;
+}
+.Header-g_2_1{/*txt=>ACCUEIL*/
+ margin-right:30px;	
+cursor:pointer;   
+}
+.Header-g_2_1:hover{
+border-bottom:1px solid #000;  
+}
+.Header-g_2_2{/*txt=>A PROPOS*/
+cursor:pointer;	 
+}
+.Header-g_2_2:hover{/*Hover*/
+ border-bottom:1px solid #000;      
+ }
+
+}
+
+@media (min-width: 769px) {/*(active)=>/*Destop*/    
+
+.Header-g{
+ height:46.88px;/*fima*/
+ display: flex;
+ justify-content: space-between ; 
+       
+ margin-top:20px;
+ margin-bottom:27px;	
+}
+.Header-g_1{/*logo*/
+            
+height:46.88px;/*fima*/	
+width:145px;/*fima*/   
+ }
+.Header-g_2{
+ height:46.88px;/*fima*/ 
+ padding-top: 20px;
+ box-sizing: border-box;
+ }
+ .Header-g_2_1{/*txt=>ACCUEIL*/
+ margin-right:50px;	
+ cursor:pointer;   
+ }
+ .Header-g_2_1:hover{
+ border-bottom:1px solid #000;  
+}
+.Header-g_2_2{/*txt=>A PROPOS*/
+cursor:pointer;	 
+}
+.Header-g_2_2:hover{/*Hover*/
+ border-bottom:1px solid #000;      
+ }
+
+/*fonts
+ */
+ .caract-12p{   
+  font-size: 1.5rem;/*24px*/  
+  }
+
+
+}   

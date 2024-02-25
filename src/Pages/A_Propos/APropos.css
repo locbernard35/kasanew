@@ -1,0 +1,36 @@
+
+
+/*Mobile-first::
+*/
+
+@media (max-width: 768px) {/*(active)=>/*Mobile*/
+
+.main-container-Apropos{  
+margin:auto;
+padding: 20px;   
+box-sizing: border-box; 
+
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 769px) {/*(active)=> /*Destop*/ 
+
+.main-container-Apropos{
+ max-width:1240px;/*destop*/
+ margin:auto;
+ padding: 20px;   
+ box-sizing: border-box;  
+}
+        
+
+
+
+
+
+}

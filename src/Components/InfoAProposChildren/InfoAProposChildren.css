@@ -1,0 +1,113 @@
+
+
+/*Mobile-first
+*/
+@media (max-width: 768px) {/*(active)=>/*Mobile*/ 
+
+.InfoAPropos-G_1-Margin{
+margin-bottom: 20px;  
+}   
+.InfoAPropos-G_1{/*flex*/
+height: 30px;       
+display: flex;
+justify-content: space-between;     
+border-radius: 5px;      
+padding-left: 15px;
+padding-right: 15px;
+box-sizing: border-box;
+cursor: pointer;
+background-color: #ff6060;
+}        
+.InfoAPropos-G_1_1{/*container=>txt*/
+height: 30px;   
+padding-top: 4px;
+box-sizing: border-box;
+}     
+.InfoAPropos-G_1_1_1-txt{/*txt*/
+color:#fff;
+font-size: 0.813rem;/*13px*/
+font-weight: bold;
+}     
+.InfoAPropos-G_1_2{/*container=>flech*/
+height: 30px;
+padding-top: 6px;
+box-sizing: border-box; 
+     
+}     
+.InfoAPropos-G_1_2_1-flech{/*icon*/
+font-size: 1rem;  /*16px*/ 
+color:#fff;
+}     
+.InfoAPropos-G_2{/* Description=> Dyn*/     
+padding: 20px;
+box-sizing: border-box;
+border-radius: 0px 0px 5px 5px;
+box-sizing: border-box;
+background-color: #f6f6f6;
+margin-bottom: 20px;
+}     
+.InfoAPropos-G_2_1-txt{/*txt*/
+color: #000;
+font-size: 0.75rem;/*12px*/
+}       
+
+
+}
+
+
+@media (min-width: 769px) {/*(active)=>/*Destop*/ 
+
+.InfoAPropos-G_1-Margin{
+margin-bottom: 20px;  
+}   
+.InfoAPropos-G_1{/*flex*/
+height: 54px;       
+display: flex;
+justify-content: space-between;     
+border-radius: 5px;      
+padding-left: 15px;
+padding-right: 15px;
+box-sizing: border-box;
+cursor: pointer;
+background-color: #ff6060;
+}        
+.InfoAPropos-G_1_1{
+height: 54px;   
+padding-top: 12px;
+box-sizing: border-box;
+}     
+.InfoAPropos-G_1_1_1-txt{/*txt*/
+color:#fff;
+font-size:1.5rem;/*24px*/
+font-weight: bold;
+}     
+.InfoAPropos-G_1_2{
+height: 54px;
+padding-top: 10px;
+box-sizing: border-box;       
+}     
+.InfoAPropos-G_1_2_1-flech{/*icon*/
+font-size: 2.125rem; /*34px*/  
+color:#fff;
+}     
+.InfoAPropos-G_2{/* Description=> Dyn*/     
+padding: 20px;
+box-sizing: border-box;
+border-radius: 0px 0px 5px 5px;
+box-sizing: border-box;
+background-color: #f6f6f6;
+margin-bottom: 20px;
+}     
+.InfoAPropos-G_2_1-txt{/*txt*/
+color: #000;
+font-size: 1.125rem;/*18px*/
+}
+     
+
+}
+
+
+
+  
+  
+  
